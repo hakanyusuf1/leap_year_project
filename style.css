@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Macondo", cursive;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: burlywood;
+}
+.container {
+  width: 90%;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Macondo", cursive;
+  font-weight: 900;
+  font-size: x-large;
+  padding-top: 15px;
+
+}
+
+
+.body {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.head {
+    font-size: 40px;
+    padding: 25px;
+}
+
+.body .text_2 {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.input input{
+    width: 80px;
+    height: 20px;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-indent: 3px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
